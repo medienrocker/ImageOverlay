@@ -1,0 +1,33 @@
+/* styles.css */
+.szy_image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.szy_image-overlay {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+    transform-origin: center center;
+}
+
+.overlay div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+    transition: opacity 0.3s;
+    transform-origin: center center;
+}
