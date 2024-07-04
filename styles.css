@@ -26,8 +26,7 @@
 }
 
 .section-overlay_2-2 {
-    height: 50%;
-    top: 0;
+    display: none;
 }
 
 .section-overlay_3-1 {
