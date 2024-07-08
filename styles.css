@@ -1,10 +1,15 @@
-/* styles.css */
+/* Erzeugt ein leicht transparentes overlay über dem Badge-Image.
+   Vorteil: es wird immer nur das eine Badge für den entsprechenden Kurs eingefügt
+   und je nach fertig bearbeitetem Abschnitt (Kachel) wird der entsprechende Teil des Badges 
+   von unten nach oben aufgedeckt.
+   Viele Grüße ;)
+   @medienrocker -> Falk Szyba */
 
 .szy_image-container {
     position: relative;
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 60px;
+    height: 60px;
 }
 
 .szy_image-container img {
@@ -22,7 +27,7 @@
 
 .section-overlay_2-1 {
     height: 50%;
-    top: 50%;
+    bottom: 50%;
 }
 
 .section-overlay_2-2 {
@@ -31,12 +36,12 @@
 
 .section-overlay_3-1 {
     height: 66.66%;
-    top: 33.33%;
+    bottom: 33.33%;
 }
 
 .section-overlay_3-2 {
-    height: 66.66%;
-    top: 66.66%;
+    height: 33.33%;
+    bottom: 66.66%;
 }
 
 .section-overlay_3-3 {
@@ -45,17 +50,17 @@
 
 .section-overlay_4-1 {
     height: 75%;
-    top: 25%;
+    bottom: 25%;
 }
 
 .section-overlay_4-2 {
-    height: 75%;
-    top: 50%;
+    height: 50%;
+    bottom: 50%;
 }
 
 .section-overlay_4-3 {
-    height: 75%;
-    top: 75%;
+    height: 25%;
+    bottom: 75%;
 }
 
 .section-overlay_4-4 {
@@ -64,22 +69,22 @@
 
 .section-overlay_5-1 {
     height: 80%;
-    top: 20%;
+    bottom: 20%;
 }
 
 .section-overlay_5-2 {
-    height: 80%;
-    top: 40%;
+    height: 60%;
+    bottom: 40%;
 }
 
 .section-overlay_5-3 {
-    height: 80%;
-    top: 60%;
+    height: 40%;
+    bottom: 60%;
 }
 
 .section-overlay_5-4 {
-    height: 80%;
-    top: 80%;
+    height: 20%;
+    bottom: 80%;
 }
 
 .section-overlay_5-5 {
@@ -88,27 +93,27 @@
 
 .section-overlay_6-1 {
     height: 83.33%;
-    top: 16.66%;
+    bottom: 16.66%;
 }
 
 .section-overlay_6-2 {
-    height: 83.33%;
-    top: 33.33%;
+    height: 66.66%;
+    bottom: 33.33%;
 }
 
 .section-overlay_6-3 {
-    height: 83.33%;
-    top: 50%;
+    height: 50%;
+    bottom: 50%;
 }
 
 .section-overlay_6-4 {
-    height: 83.33%;
-    top: 66.66%;
+    height: 33.33%;
+    bottom: 66.66%;
 }
 
 .section-overlay_6-5 {
-    height: 83.33%;
-    top: 83.33%;
+    height: 16.66%;
+    bottom: 83.33%;
 }
 
 .section-overlay_6-6 {
@@ -117,32 +122,32 @@
 
 .section-overlay_7-1 {
     height: 85.71%;
-    top: 14.28%;
+    bottom: 14.28%;
 }
 
 .section-overlay_7-2 {
-    height: 85.71%;
-    top: 28.57%;
+    height: 71.42%;
+    bottom: 28.57%;
 }
 
 .section-overlay_7-3 {
-    height: 85.71%;
-    top: 42.85%;
+    height: 57.14%;
+    bottom: 42.85%;
 }
 
 .section-overlay_7-4 {
-    height: 85.71%;
-    top: 57.14%;
+    height: 42.85%;
+    bottom: 57.14%;
 }
 
 .section-overlay_7-5 {
-    height: 85.71%;
-    top: 71.42%;
+    height: 28.57%;
+    bottom: 71.42%;
 }
 
 .section-overlay_7-6 {
-    height: 85.71%;
-    top: 85.71%;
+    height: 14.28%;
+    bottom: 85.71%;
 }
 
 .section-overlay_7-7 {
