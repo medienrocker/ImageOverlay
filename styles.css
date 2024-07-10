@@ -8,8 +8,8 @@
 .szy_image-container {
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 300px;
+    height: 300px;
 }
 
 .szy_image-container img {
@@ -25,169 +25,38 @@
     background: rgba(255, 255, 255, 0.9);
 }
 
-.section-overlay_2-1 {
-    height: 50%;
-    bottom: 50%;
-}
-
-.section-overlay_2-2 {
-    display: none;
-}
-
-.section-overlay_3-1 {
-    height: 66.66%;
-    bottom: 33.33%;
-}
-
-.section-overlay_3-2 {
-    height: 33.33%;
-    bottom: 66.66%;
-}
-
-.section-overlay_3-3 {
-    display: none;
-}
-
-.section-overlay_4-1 {
-    height: 75%;
-    bottom: 25%;
-}
-
-.section-overlay_4-2 {
-    height: 50%;
-    bottom: 50%;
-}
-
-.section-overlay_4-3 {
-    height: 25%;
-    bottom: 75%;
-}
-
-.section-overlay_4-4 {
-    display: none;
-}
-
-.section-overlay_5-1 {
-    height: 80%;
-    bottom: 20%;
-}
-
-.section-overlay_5-2 {
-    height: 60%;
-    bottom: 40%;
-}
-
-.section-overlay_5-3 {
-    height: 40%;
-    bottom: 60%;
-}
-
-.section-overlay_5-4 {
-    height: 20%;
-    bottom: 80%;
-}
-
-.section-overlay_5-5 {
-    display: none;
-}
-
-.section-overlay_6-1 {
-    height: 83.33%;
-    bottom: 16.66%;
-}
-
-.section-overlay_6-2 {
-    height: 66.66%;
-    bottom: 33.33%;
-}
-
-.section-overlay_6-3 {
-    height: 50%;
-    bottom: 50%;
-}
-
-.section-overlay_6-4 {
-    height: 33.33%;
-    bottom: 66.66%;
-}
-
-.section-overlay_6-5 {
-    height: 16.66%;
-    bottom: 83.33%;
-}
-
-.section-overlay_6-6 {
-    display: none;
-}
-
-.section-overlay_7-1 {
-    height: 85.71%;
-    bottom: 14.28%;
-}
-
-.section-overlay_7-2 {
-    height: 71.42%;
-    bottom: 28.57%;
-}
-
-.section-overlay_7-3 {
-    height: 57.14%;
-    bottom: 42.85%;
-}
-
-.section-overlay_7-4 {
-    height: 42.85%;
-    bottom: 57.14%;
-}
-
-.section-overlay_7-5 {
-    height: 28.57%;
-    bottom: 71.42%;
-}
-
-.section-overlay_7-6 {
-    height: 14.28%;
-    bottom: 85.71%;
-}
-
-.section-overlay_7-7 {
-    display: none;
-}
-.section-overlay_8-1 {
-    height: 87.5%;
-    bottom: 12.5%;
-}
-
-.section-overlay_8-2 {
-    height: 75%;
-    bottom: 25%;
-}
-
-.section-overlay_8-3 {
-    height: 62.5%;
-    bottom: 37.5%;
-}
-
-.section-overlay_8-4 {
-    height: 50%;
-    bottom: 50%;
-}
-
-.section-overlay_8-5 {
-    height: 37.5%;
-    bottom: 62.5%;
-}
-
-.section-overlay_8-6 {
-    height: 25%;
-    bottom: 75%;
-}
-
-.section-overlay_8-7 {
-    height: 12.5%;
-    bottom: 87.5%;
-}
-
-.section-overlay_8-8 {
-    display: none;
-}
+.section-overlay_2-1 { height: 50%; bottom: 50%; } 
+.section-overlay_2-2 { display: none; } 
+.section-overlay_3-1 { height: 66.66%; bottom: 33.33%; } 
+.section-overlay_3-2 { height: 33.33%; bottom: 66.66%; } 
+.section-overlay_3-3 { display: none; } 
+.section-overlay_4-1 { height: 75%; bottom: 25%; } 
+.section-overlay_4-2 { height: 50%; bottom: 50%; } 
+.section-overlay_4-3 { height: 25%; bottom: 75%; } 
+.section-overlay_4-4 { display: none; } 
+.section-overlay_5-1 { height: 80%; bottom: 20%; } 
+.section-overlay_5-2 { height: 60%; bottom: 40%; } 
+.section-overlay_5-3 { height: 40%; bottom: 60%; } 
+.section-overlay_5-4 { height: 20%; bottom: 80%; } 
+.section-overlay_5-5 { display: none; } 
+.section-overlay_6-1 { height: 83.33%; bottom: 16.66%; } 
+.section-overlay_6-2 { height: 66.66%; bottom: 33.33%; } 
+.section-overlay_6-3 { height: 50%; bottom: 50%; } 
+.section-overlay_6-4 { height: 33.33%; bottom: 66.66%; } 
+.section-overlay_6-5 { height: 16.66%; bottom: 83.33%; } 
+.section-overlay_6-6 { display: none; } 
+.section-overlay_7-1 { height: 85.71%; bottom: 14.28%; } 
+.section-overlay_7-2 { height: 71.42%; bottom: 28.57%; } 
+.section-overlay_7-3 { height: 57.14%; bottom: 42.85%; } 
+.section-overlay_7-4 { height: 42.85%; bottom: 57.14%; } 
+.section-overlay_7-5 { height: 28.57%; bottom: 71.42%; } 
+.section-overlay_7-6 { height: 14.28%; bottom: 85.71%; } 
+.section-overlay_7-7 { display: none; } 
+.section-overlay_8-1 { height: 87.5%; bottom: 12.5%; } 
+.section-overlay_8-2 { height: 75%; bottom: 25%; } 
+.section-overlay_8-3 { height: 62.5%; bottom: 37.5%; } 
+.section-overlay_8-4 { height: 50%; bottom: 50%; } 
+.section-overlay_8-5 { height: 37.5%; bottom: 62.5%; } 
+.section-overlay_8-6 { height: 25%; bottom: 75%; } 
+.section-overlay_8-7 { height: 12.5%; bottom: 87.5%; } 
+.section-overlay_8-8 { display: none; }
